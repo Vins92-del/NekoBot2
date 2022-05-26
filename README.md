@@ -30,7 +30,6 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.... 😇
 <a href="https://youtu.be/LCrkRTMkmzE">
   <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
 </a><br>
-**Video tutorial Deploy**<br>
 **Thanks to [Erich](https://t.me/ErichDaniken) and his [InFoTel](https://t.me/InFoTel_Group) Untuk video ini**
 
 #### Deploy on Railway

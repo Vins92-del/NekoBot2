@@ -1,4 +1,5 @@
 # --- For-Bot-Working --------- #
+python-dotenv
 pyrogram~=1.4.1
 TgCrypto
 Pyromod
@@ -6,4 +7,3 @@ Pyromod
 sqlalchemy~=1.3.23
 psycopg2-binary
 feedparser
-

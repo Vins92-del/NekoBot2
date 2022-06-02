@@ -1,6 +1,6 @@
 {
   "name": "TG File Share/Sharing Bot",
-  "description": "file sharing bot store posts and it can access by special links",
+  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
@@ -10,42 +10,59 @@
   "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
+      "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
       "value": ""
+    },
+    "OWNER": {
+      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "value": "Nekocannn"
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "description": "Masukan User ID Telegram untuk Owner BOT",
+      "value": "69696969"
     },
-    "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+    "ADMINS": {
+      "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
+      "value": "0"
+    },
+    "APP_ID": {
+      "description": "Dapatkan APP ID di web my.telegram.org",
       "value": ""
     },
-    "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
+    "API_HASH": {
+      "description": "Dapatkan API HASH di web my.telegram.org",
       "value": ""
     },
-    "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+    "CHANNEL_ID": {
+      "description": "Masukan ID Channel Untuk [Channel Database]",
       "value": "-100"
     },
-    "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+    "FORCE_SUB_CHANNEL": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
+      "value": "0"
+    },
+    "FORCE_SUB_GROUP": {
+      "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
     },
     "START_MESSAGE": {
-      "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
+      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
     },
     "FORCE_SUB_MESSAGE": {
-      "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
+      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
     },
-    "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+    "CHANNEL":{
+      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "Username Channel",
       "required": false
     },
+    "GROUP":{
+      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "Username Grup",
+      "required": false
+    }
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
       "value": "False",

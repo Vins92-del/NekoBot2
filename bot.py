@@ -39,7 +39,7 @@ class Bot(Client):
         except Exception as a:
             self.LOGGER(__name__).warning(a)
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/indonesia untuk Bantuan"
+                "Bot Berhenti. Gabung Group https://t.me/bling2indonesia untuk Bantuan"
             )
             sys.exit()
 

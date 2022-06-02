@@ -20,10 +20,10 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1926379604"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1776634207"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "fckandnight")
+OWNER = os.environ.get("OWNER", "Nekocannn")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")

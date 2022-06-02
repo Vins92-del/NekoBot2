@@ -99,7 +99,7 @@ python3 main.py
 
 
 ## Support   
-Join Our [Telegram Group](https://www.telegram.dog/bling2indonesia) For Support/Assistance And Our [Channel](https://www.telegram.dog/bling2indonesia) For Updates.   
+Join Our [Telegram Group](https://t.me/fsubneko) For Support [Channel](https://t.me/fsubnekoch) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 

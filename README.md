@@ -59,6 +59,8 @@ python3 main.py
 /broadcast - menyiarkan/broadcast pesan apa pun ke pengguna bot
 
 /ping - untuk mengecek bot
+
+/uptime - untuk melihat waktu aktif bot
 ```
 
 ### Variables

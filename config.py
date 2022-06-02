@@ -27,8 +27,8 @@ OWNER = os.environ.get("OWNER", "Nekocannn")
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Username CH")
-GROUP = os.environ.get("GROUP", "Username Grup")
+CHANNEL = os.environ.get("CHANNEL", "0")
+GROUP = os.environ.get("GROUP", "0")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))

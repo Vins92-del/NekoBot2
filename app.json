@@ -50,6 +50,16 @@
       "value": "",
       "required": false
     },
+    "CHANNEL":{
+      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "Username CH",
+      "required": false
+    },
+    "GROUP":{
+      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "Username Grup",
+      "required": false
+    }
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
       "value": "False",

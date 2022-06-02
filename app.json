@@ -7,7 +7,7 @@
     "sharing"
   ],
   "repository": "https://github.com/BTRExo/File-Sharing-Neko",
-  "logo": "https://telegra.ph/file/f99edfd62cc47c9f52033.jpg",
+  "logo": "https://telegra.ph/file/922f2c17d5342dd3b9c34.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",

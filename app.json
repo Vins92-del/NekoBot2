@@ -19,7 +19,7 @@
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1926379677"
+      "value": "1776634207"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
@@ -51,7 +51,7 @@
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel & Grup terlebih dahulu untuk menggunakan Bot, kemudian klik Coba Lagi\n\nSilakan Join Ke Channel & Grup terlebih dahulu</b>"
     },
     "PROTECT_CONTENT": {
       "description": "Isi True Jika Ingin Untuk Mencegah File Di Teruskan Oleh Orang Lain or False Untuk mematikan ",

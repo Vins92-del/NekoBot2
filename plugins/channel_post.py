@@ -19,7 +19,7 @@ from helper_func import encode
     )
 )
 async def channel_post(client: Client, message: Message):
-    reply_text = await message.reply_text("<code>Tunggu Sebentar...</code>", quote=True)
+    reply_text = await message.reply_text("<code>⏳ Tunggu Sebentar...</code>", quote=True)
     try:
         post_message = await message.copy(
             chat_id=client.db_channel.id, disable_notification=True
@@ -43,13 +43,15 @@ async def channel_post(client: Client, message: Message):
             [
                 InlineKeyboardButton(
                     "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
-                )
+                InlineKeyboardButton(
+                    "👁‍🗨 Check", url=f"{link}"
+               )
             ]
         ]
     )
 
     await reply_text.edit(
-        f"<b>Link Sharing File Berhasil Di Buat :</b>\n\n{link}",
+        f"<b>✅ Link Sharing File Berhasil Di Buat :</b>\n\n{link}",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
@@ -75,7 +77,9 @@ async def new_post(client: Client, message: Message):
             [
                 InlineKeyboardButton(
                     "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
-                )
+                InlineKeyboardButton(
+                    "👁‍🗨 Check", url=f"{link}"
+               )
             ]
         ]
     )

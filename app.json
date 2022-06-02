@@ -47,11 +47,11 @@
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
-      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+      "value": "<b>Hallo {mention}\n\nSaya dapat menyimpan file pribadi di Channel Private dan pengguna lain dapat mengaksesnya dari link Khusus.\n</b>"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
-      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel & Grup terlebih dahulu untuk menggunakan Bot.\n\nSilahkan Join ke Channel & Grup terlebih dahulu lalu Coba Lagi</b>"
+      "value": "<b>Hallo {mention}\n\nAnda harus bergabung di Channel & Grup terlebih dahulu untuk menggunakan Bot.\n\nSilahkan Join Channel & Grup Terlebih dahulu\nKemudian Coba Lagi\n</b>"
     },
     "PROTECT_CONTENT": {
       "description": "Isi True Jika Ingin Untuk Mencegah File Di Teruskan Oleh Orang Lain or False Untuk mematikan ",

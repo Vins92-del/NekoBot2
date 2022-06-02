@@ -55,7 +55,7 @@ async def batch(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"),
                 InlineKeyboardButton(
                     "📦 Batch", url=f"{link}"
                 )
@@ -96,7 +96,7 @@ async def link_generator(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"),
                 InlineKeyboardButton(
                     "🗂 Genlink", url=f"{link}"
                 )

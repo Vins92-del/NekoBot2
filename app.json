@@ -1,5 +1,5 @@
 {
-  "name": "TG File Share/Sharing Bot Neko",
+  "name": "File Sharing ",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
@@ -7,29 +7,37 @@
     "sharing"
   ],
   "repository": "https://github.com/BTRExo/File-Sharing-Neko",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "logo": "https://telegra.ph/file/f99edfd62cc47c9f52033.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
       "value": ""
     },
+    "OWNER": {
+      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "value": "Nekocannn
+    },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1250450577"
+      "value": "1926379677"
     },
-    "APP_ID":{
+    "ADMINS": {
+      "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
+      "value": "0"
+    },
+    "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
       "value": ""
     },
-    "API_HASH":{
+    "API_HASH": {
       "description": "Dapatkan API HASH di web my.telegram.org",
       "value": ""
     },
-    "CHANNEL_ID":{
+    "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
       "value": "-100"
     },
-    "FORCE_SUB_CHANNEL":{
+    "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
       "value": "0"
     },
@@ -45,16 +53,10 @@
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
       "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
     },
-    "ADMINS": {
-      "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
-      "value": "",
-      "required": false
-    },
     "PROTECT_CONTENT": {
-      "description": "Protect contents from getting forwarded",
-      "value": "False",
-      "required": false
-    }
+      "description": "Isi True Jika Ingin Untuk Mencegah File Di Teruskan Oleh Orang Lain or False Untuk mematikan ",
+      "value": "False"
+   }
   },
   "addons": [
     {
@@ -76,4 +78,3 @@
     }
   }
 }
-

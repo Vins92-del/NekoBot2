@@ -50,7 +50,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hallo {mention}\n\nAnda harus bergabung di Channel & Grup terlebih dahulu untuk menggunakan Bot.\n\nSilahkan Join Channel & Grup Terlebih dahulu\nKemudian Coba Lagi\n\n</b>",
+    "<b>Hallo {mention}\n\nAnda harus bergabung di Channel & Grup terlebih dahulu untuk menggunakan Bot.\n\nSilahkan Join Channel & Grup Terlebih dahulu\nKemudian Coba Lagi\nTerima kasih\n\n</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
